@@ -1,0 +1,76 @@
+
+#body-pane{
+    -fx-background-color: #ebf5fc;
+}
+#form{
+    -fx-background-color: #ebf5fc;
+    -fx-min-width: 400px;
+    -fx-min-height: 500px;
+}
+#user{
+    -fx-min-width: 75px;
+    -fx-min-height: 75px;
+}
+#user-icon{
+    -fx-fill: #e5707a;
+    -glyph-size: 40px;
+}
+
+#inputs{
+    -fx-min-width: 200;
+    -fx-prompt-text-fill: #666;
+    -fx-font-size: 14px;
+    -jfx-focus-color: #7dcaa2;
+}
+#input-label{
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #4c4c4c;
+}
+
+#buttons{
+    -fx-background-color: linear-gradient(to bottom, #e5707a, #F26ED6);
+    -fx-background-radius: 5px;
+    -fx-min-width: 100px;
+    -fx-min-height: 30px;
+    -fx-text-fill: #fff;
+    -fx-font-size: 16px;
+    -fx-cursor: hand;
+}
+#copyright{
+    -fx-text-fill: #444;
+    -fx-font-size: 13;
+    -fx-font-family: consolas;
+}
+#close-icon{
+    -glyph-size: 20px;
+    -fx-cursor: hand;
+}
+#student-registration{
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #4c4c4c;
+    -fx-font-family: tahoma;
+}
+.table-view .column-header,
+.table-view .column-header-background .filler {
+    -fx-background-color:  #ebf5fc;
+}
+.table-view .column-header .label{
+   -fx-text-fill: #4c4c4c;
+   -fx-font-weight: bold;
+   -fx-alignment: CENTER_LEFT;
+}
+.table-view .cell{
+   -fx-cell-size: 35;
+  -fx-alignment: center-left;
+  -fx-background-color: #ebf5fc;
+ /* -fx-border-color: #29292D;*/
+  -fx-text-fill: #4c4c4c;
+  -fx-alignment: CENTER_LEFT;
+  -fx-cursor: hand;
+
+}
+#table-view{
+    -fx-border-stroke: 0px;
+}
